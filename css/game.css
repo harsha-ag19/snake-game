@@ -17,7 +17,7 @@
     right:200px;
     font-size: 40px;
     font-weight: bold;
-    color:rgb(0, 128, 117);
+    color:gray;
 }
 #hiscoreBox{
     position: absolute;
@@ -25,7 +25,7 @@
     right:140px;
     font-size: 40px;
     font-weight: bold;
-    color:rgb(0, 128, 117);
+    color:gray;
 }
 #modal
 {
