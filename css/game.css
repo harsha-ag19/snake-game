@@ -25,6 +25,15 @@
     font-weight: bold;
     color:rgb(0, 128, 117);
 }
+#modal
+{
+    position: absolute;
+    top:15%;
+    right:8%;
+    font-size: 40px;
+    font-weight: bold;
+    color:gray;
+}
 #board{
     background: linear-gradient(lightblue,gray);
     width:95vmin;
