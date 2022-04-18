@@ -54,6 +54,49 @@ function gameEngine(){
          let a=2;
          let b=16;
          food={x: Math.round(a+(b-a)*Math.random()),y: Math.round(a+(b-a)*Math.random())};
+          if(score>=20)
+         {
+            var element= document.getElementById("modal");
+            element.innerHTML = "Level: "+"Specialist";
+             element.style.color="#0099cc";
+ 
+            speed=11;
+         }
+         if(score>=30)
+         {
+            var element= document.getElementById("modal");
+            element.innerHTML = "Level: "+"Expert";
+             element.style.color="#000066";
+             speed=13;
+         }
+         if(score>=40)
+         {
+            var element= document.getElementById("modal");
+            element.innerHTML = "Level: "+"Candidate Master";
+             element.style.color="#990000";
+             speed=16;
+         }
+         if(score>=50)
+         {
+            var element= document.getElementById("modal");
+            element.innerHTML = "Level: "+"Master";
+             element.style.color="#ff3333";
+             speed=19;
+         }
+         if(score>=60)
+         {
+            var element= document.getElementById("modal");
+            element.innerHTML = "Level: "+"Grand Master";
+             element.style.color="#ff0000";
+             speed=21;
+         }
+         if(score>=70)
+         {
+            var element= document.getElementById("modal");
+            element.innerHTML = "Level: "+"Legendary GrandMaster";
+             element.style.color="#000000";
+             speed=30;
+         }
      }
      //moving the snake
      for(let i=snakeArr.length -2 ; i >= 0 ;i--)
